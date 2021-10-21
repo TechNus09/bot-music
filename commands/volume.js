@@ -4,8 +4,8 @@ const sendError = require("../util/error");
 module.exports = {
   info: {
     name: "volume",
-    description: "To change the server song queue volume",
-    usage: "[volume]",
+    description: "To change the server song queue volume (0-150)",
+    usage: "<volume>",
     aliases: ["v", "vol"],
   },
 
