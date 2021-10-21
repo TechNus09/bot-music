@@ -7,7 +7,7 @@ module.exports = {
   info: {
     name: "afk",
     description: "to keep the bot in the voice channel for 24/7",
-    usage: " ",
+    usage: "[afk]",
     aliases: ["24/7"],
   },
 
