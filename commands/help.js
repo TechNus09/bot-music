@@ -4,7 +4,7 @@ module.exports = {
     info: {
         name: "help",
         description: "To show this message",
-        usage: "[command]",
+        usage: "[help]",
         aliases: ["commands", "help me", "pls help"]
     },
 
@@ -20,7 +20,7 @@ module.exports = {
         .setAuthor("Commands of "+client.user.username, "https://media.discordapp.net/attachments/821270469172658196/845709703358971904/Music.gif")
         .setColor("BLUE")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | MADE BY SOCIAL404`)
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] )
 
         if(!args[0])return message.channel.send(embed)
         else {
