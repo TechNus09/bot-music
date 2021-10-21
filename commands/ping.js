@@ -3,7 +3,7 @@ module.exports = {
     info: {
         name: "ping",
         description: "To see the bot latency",
-        usage: "[ping]",
+        usage: " ",
         aliases: ["pg"],
     },
 
