@@ -4,7 +4,7 @@ module.exports = {
     info: {
         name: "leave",
         description: "Leaves the voice channel of the messenger",
-        usage: "[leave]",
+        usage: " ",
         aliases: ["l"],
     },
 
