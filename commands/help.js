@@ -4,7 +4,7 @@ module.exports = {
     info: {
         name: "help",
         description: "To show this message",
-        usage: "[help]",
+        usage: " ",
         aliases: ["commands", "help me", "pls help"]
     },
 
