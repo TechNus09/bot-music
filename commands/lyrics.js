@@ -6,7 +6,7 @@ module.exports = {
   info: {
     name: "lyrics",
     description: "Get lyrics for the currently playing song",
-    usage: "[lyrics]",
+    usage: " ",
     aliases: ["ly"],
   },
 
