@@ -20,7 +20,7 @@ module.exports = {
         .setAuthor("Commands of "+client.user.username, "https://media.discordapp.net/attachments/821270469172658196/845709703358971904/Music.gif")
         .setColor("BLUE")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] )
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] `)
 
         if(!args[0])return message.channel.send(embed)
         else {
